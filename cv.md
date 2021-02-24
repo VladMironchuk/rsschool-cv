@@ -1,1 +1,18 @@
+# Vladislav Mironchuk
 
+## Contact information
+**Phone:** +375(33)327-80-41  
+**Email:** vlad.mironchuk.02@gmail.com  
+**Discord:** vladmiron01  
+- - -
+
+## Summary
+My main goal is to become a Fullstack JS Developer. I am hardworking, responsible, very motivated.
+- - -
+
+## Skills
+**Languages:** HTML, CSS, JS, SQL  
+**Frameworks:** Node.js, Express.js  
+**Technologies:** GIT, Docker, Swagger  
+**Software:** Webstorm, Visual Studio Code, Figma 
+- - -
