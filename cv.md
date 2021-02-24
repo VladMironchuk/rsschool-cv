@@ -39,3 +39,11 @@ function maxSequence(arr) {
 ## Courses 
 1. [JavaScript Tutorial](https://learn.javascript.ru)
 - - - 
+
+## Education
+### Belarusian State University (2019 - present)  
+Mechanics and Mathematics faculty, Bachelor
+- - -
+
+## English 
+**Level:** B1
