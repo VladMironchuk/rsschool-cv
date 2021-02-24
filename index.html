@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV</title>
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <h1 class="title">Vladislav Mironchuk</h1>
+            <div class="info">
+                <img class="info-photo" src="img/profile.jpg" alt="Vladislav Mironchuk photo">
+                <div class="info-content">
+                    <details>
+                        <summary class="summary">Contact information</summary>
+                        <ul class="info-list">
+                            <li><b>Phone:</b> +375(33)327-80-41</li>
+                            <li><b>Email:</b> <span><a>vlad.mironchuk.02@gmail.com</a></span></li>
+                            <li><b>Discord:</b> vladmiron01</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="section">
+                <h2 class="section-title">Summary</h2>
+                <div class="section-content">My main goal is to become a Fullstack JS Developer. I am hardworking, responsible, motivated.</div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-content">
+                    <ul class="section-list">
+                        <li>Languages: HTML, CSS, JS, SQL</li>
+                        <li>Frameworks: Node.js, Express.js</li>
+                        <li>Technologies: GIT, Docker, Swagger</li>
+                        <li>Software: Webstorm, Visual Studio Code, Figma</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Code Example</h2>
+                <div class="section-content">
+                    <pre>
+                        <code>
+    // Maximum subarray sum
+    function maxSequence(arr) {
+      if(arr.length===0) return 0;
+      let maxSum = 0;
+      let partialSum = 0;
+    
+      for (let item of arr) { 
+        partialSum += item; 
+        maxSum = Math.max(maxSum, partialSum); 
+        if (partialSum &lt; 0) partialSum = 0; 
+      }
+    
+      return maxSum;
+    }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Courses</h2>
+                <div class="section-content">
+                    <ul class="section-list">
+                        <li><a href="https://learn.javascript.ru" target="_blank">JavaScript Tutorial</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="section-content">
+                    <p class="section-text">
+                        <b>Belarusian State University (2019 - present)</b><br>
+                        Mechanics and Mathematics faculty, Bachelor
+                    </p>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">English</h2>
+                <div class="section-content">
+                    <ul class="section-list">
+                        <li>Level: B1</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
